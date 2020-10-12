@@ -1,0 +1,42 @@
+
+Selection Sort analysis:
+
+ 1.  Total number of comparison
+     (N-1) + (N-2) +(N-1) +...+ 3 + 2 + 1
+     = (1+(N-1))*(N-1)/2 = N(N-1)/2
+ 2.  Total number of element swap (Worst case)
+     N-1
+ 3.  Total cost = Total Comparison + Total Swap 
+        = N(N-1)/2 + (N-1) = (N-1)(N/2 + 1)=N²/2 + N - N/2 -1
+		= N²/2 + N/2 -1
+
+Insertion Sort Analysis:
+
+1.  Total number of comparisons 
+	
+	Worst case: 
+		0 + 1 + 2 + 3 + ... + (N-2) + (N-1) = (N-1)N/2
+	
+	Best case:
+		N-1 for initially sorted array
+		
+		
+	Binary search:
+		log₂1 + log₂2 + (log₂3+1) + (log₂4) + (log₂5+1) +(log₂6+1) + (log₂7+1) + log₂8
+		 ... + log₂(N-1) + 1 + (log₂N + 1)
+		= log₂(1*2*3...*N) + (2^1-1 + 2^2-1 + 2^3-1 + 2^4-1 +...+2^K-1 )
+		< log₂(N^N) + (1-2^K)/(1-2) = log₂(N^N) + 2^K-1 < log₂(N^N) + (N-1)
+		= Nlog₂N + N-1
+		
+		K=[log₂N]
+2.	Total number of exchanges
+	
+	Worst case:
+		0 + 1 + 2 + 3 + ... + (N-2) + (N-1) = (N-1)N/2		
+	
+	Best case:
+		0
+	
+	
+	
+			

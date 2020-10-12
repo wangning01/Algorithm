@@ -1,0 +1,14 @@
+
+
+The array was a result of quick union.
+
+0,1
+2,3
+7,3
+3,1
+8,4
+4,5
+9,5
+5,6
+6,1
+

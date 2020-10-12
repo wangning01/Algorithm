@@ -1,0 +1,8 @@
+
+
+	1.	Total number of loops = N * (# of input pairs) = 10^9 * 10^6 = 10^15
+	2.	Total number of instructions = total number of loops * (# of instructions per loop)
+	 	10^15 * 10 = 10^16
+	3.	CPU spped = 10^9 instructions/second
+	4.	Total seconds required = 10^16 / 10^9 = 10^7
+	5.	Total days required = 10^7 /(24*3600) = 115.74 days

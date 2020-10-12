@@ -1,0 +1,7 @@
+
+
+	1.	Total array access = 10^6 * lg10^9 = 29.897 * 10^6=29897000
+	2.	Total number of instructions = total number of access * (# of instructions per loop)
+	 	29897000 * 10 = 298970000
+	3.	CPU spped = 10^9 instructions/second
+	4.	Total seconds required = 298970000 / 10^9 = 0.29897
